@@ -1,0 +1,24 @@
+title: "CS39440"
+author: "Evan Rees"
+description: "Example Description"
+# Update this
+
+email: "evr9@aber.ac.uk"
+
+theme: "minima"
+
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+
+titles_from_headings:
+  strip_title: true
+  collections: true
+
+defaults:
+  - scope:
+      path: ""
+      type: post
+    values:
+      tags: Other
+      
