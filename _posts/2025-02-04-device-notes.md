@@ -39,5 +39,4 @@ Java is worth considering as I have experience working with Java for apps.</br>
 My moderator is most familiar with Python. </br>
 
 #### Conclusion
-
 Python is the obvious choice due to my ease of access for Computer Vision resources for Python as the module's workshop (CS34110) was conducted in it, and my moderator is familiar with it. Also due to my previous experience while working in my Industrial Year working with satellite images in Python.
