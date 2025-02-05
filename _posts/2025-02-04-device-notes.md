@@ -1,4 +1,4 @@
-## Device & Language Choice
+## Device and Language Choice
 
 ### Device: Tablet vs Laptop.
 
