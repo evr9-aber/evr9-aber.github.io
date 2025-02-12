@@ -20,3 +20,8 @@ Made a quick camera capture app using the Computer Vision Workshop 3 code then a
 
 These discoveries worked great and created a Scratch file with the image from webcam directly added as new sprite.<br/>
 First draft of project has been created. It goes from taking a picture from a video on webcam then importing it into a Sprite project. It is crude and not good format. Still needs image processing and background subtraction required for project specs. Will show off in group meeting.
+
+### To Do:
+
+* Begin researching which type of background removal to use (background subtraction vs find person)
+* Write paragraph on what type of software development approach to use (e.g. Agile)
