@@ -1,0 +1,21 @@
+## First Draft
+
+First draft of project has been created. It is crude and not good format but it does take a picture and import it into a Sprite project.
+
+### Preparation
+
+Made a quick camera capture app using the Computer Vision Workshop 3 code then adding another line to write an image from the camera which OpenCV provides.
+
+### Discoveries
+
+* I discovered that the .sb3 file is storing the assets in plane text though there has been some form of manipulation
+* Hannah Dee pointed out that the string of characters the assets is stored as is md5 hashing
+* Thanks to a thread on Scratch's discussion board I discovered that .sb3 is simply a zip file - https://scratch.mit.edu/discuss/topic/760429/
+* You can literally rename a file to a .zip and unzip it just fine.
+* When unzipped, you can see all the assets as plane files, and a project.json file to store the information about each file.
+* Reading this file, I realised I can likely unzip the file, insert the image created by the camera into the output folder, append information about that image to json file, rezip file.
+* MD5 hash is not hash of name but seems to be hash of image data (needs further investigating)
+
+#### Success!
+
+These discoveries worked great and created a Scratch file with the image from webcam directly added as new sprite. Will show off in group meeting.
