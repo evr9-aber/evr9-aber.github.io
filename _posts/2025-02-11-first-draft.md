@@ -25,3 +25,4 @@ First draft of project has been created. It goes from taking a picture from a vi
 
 * Begin researching which type of background removal to use (background subtraction vs find person)
 * Write paragraph on what type of software development approach to use (e.g. Agile)
+* Create Kanban board
