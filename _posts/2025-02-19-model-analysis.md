@@ -6,24 +6,24 @@ I used the basic background removal example from the Computer Vision workshop to
 
 #### Basic Background Removal Example
 
-![Basic Background Removal](/docs/assets/basic-bgsubtract-test.png)
+![Basic Background Removal](/docs/assets/images/basic-bgsubtract-test.png)
 
 ### MoG and KNN Approach
 
 These approaches instead create masks that are applied to create a foreground. These masks work but, without further processing, these masks have too much noise to be useful to users. Though KNN seems to be marginally better.
 
 #### MoG Background Removal Example
-![MoG Background Removal](/docs/assets/mog-bgsubtract-test.png)
+![MoG Background Removal](/docs/assets/images/mog-bgsubtract-test.png)
 
 #### kNN Background Removal Example
-![KNN Background Removal](/docs/assets/knn-bgsubtract-test.png)
+![KNN Background Removal](/docs/assets/images/knn-bgsubtract-test.png)
 
 ### Body Segmentation
 This uses Mediapipe's model, pose landmarker, and training data in order to detect different parts of the body. I can use this data to create a mask and apply it to isolate the detected person. This worked quite accurately, producing a satisfactory outline of the subject. This still needs further cleanup but provides the most clear starting point. This will likely be what I will use going forward and will be what I use for the demonstration today. The drawback is that it requires a person and needs to recognise a person. This does not always work and students may want to use more than a person (e.g. a teddy bear or toy). It makes the most sense that this will be the default and one of the other background removal options will need to be further developed as a backup (likely KNN). <br/>
-Example code taken from https://colab.research.google.com/github/googlesamples/mediapipe/blob/main/examples/pose_landmarker/python/%5BMediaPipe_Python_Tasks%5D_Pose_Landmarker.ipynb#scrollTo=_JVO3rvPD4RN
+Example code taken from [here](https://colab.research.google.com/github/googlesamples/mediapipe/blob/main/examples/pose_landmarker/python/)
 
 #### Body Segmentation Example
-![Body Segmentation Background Removal](/docs/assets/mediapipe-test.png)
+![Body Segmentation Background Removal](/docs/assets/images/mediapipe-test.png)
 
 ### Demonstration
 Now that I have decided which I will use for this week's demonstration, I will have to edit the application to include the model and edit the code so that the removed background is transparent (rather than black as it currently is). This can be done by converting it to a rgba file and applying an alpha mask using numpy.<br/>
