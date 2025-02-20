@@ -20,7 +20,7 @@ These approaches instead create masks that are applied to create a foreground. T
 
 ### Body Segmentation
 This uses Mediapipe's model, pose landmarker, and training data in order to detect different parts of the body. I can use this data to create a mask and apply it to isolate the detected person. This worked quite accurately, producing a satisfactory outline of the subject. This still needs further cleanup but provides the most clear starting point. This will likely be what I will use going forward and will be what I use for the demonstration today. The drawback is that it requires a person and needs to recognise a person. This does not always work and students may want to use more than a person (e.g. a teddy bear or toy). It makes the most sense that this will be the default and one of the other background removal options will need to be further developed as a backup (likely KNN). <br/>
-Example code taken from [here](https://colab.research.google.com/github/googlesamples/mediapipe/blob/main/examples/pose_landmarker/python/)
+Example code taken from here [https://colab.research.google.com/github/googlesamples/mediapipe/blob/main/examples/pose_landmarker/python/](https://colab.research.google.com/github/googlesamples/mediapipe/blob/main/examples/pose_landmarker/python/)
 
 #### Body Segmentation Example
 ![Body Segmentation Background Removal](/docs/assets/images/mediapipe-test.png)
