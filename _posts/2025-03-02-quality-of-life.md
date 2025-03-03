@@ -8,7 +8,7 @@ Been coding mostly in C before this project recently, so I have needed to remind
 
 ### Audio Cues
 
-There are text cues already for frame capture but when the subject is stood across the room, trying to hold a pose, seeing it is not always easy, if at all possible. To help users know when the application is working, it made sense to add audio cues. So, I found some royality free sounds on freesound.org to use in my project. I have a small ding (from https://freesound.org/people/MashedTatoes2/sounds/515643/) to alert the user that it has detected you are still enough for a pose and it has begun capture. Then if they continue to stay in that pose, a frame is captured and a computer click sound is played (from https://freesound.org/people/Flem0527/sounds/629979/).
+There are text cues already for frame capture but when the subject is stood across the room, trying to hold a pose, seeing it is not always easy, if at all possible. To help users know when the application is working, it made sense to add audio cues. So, I found some royality free sounds on freesound.org to use in my project. I have a small ding (from [here](https://freesound.org/people/MashedTatoes2/sounds/515643/)) to alert the user that it has detected you are still enough for a pose and it has begun capture. Then if they continue to stay in that pose, a frame is captured and a computer click sound is played (from [here](https://freesound.org/people/Flem0527/sounds/629979/)).
 
 ### To Do:
 * Record more videos of myself in different contexts for testing.
