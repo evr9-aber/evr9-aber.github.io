@@ -7,4 +7,4 @@ I recorded these videos once with my arms and legs exposed, and once where they 
 * Record videos of possible non-human subjects that students would like to use.
 * Create second mode to allow users to not use human pose segmentation but instead use background removal for inanimate objects that students may also want to use as sprites.
 * Once ethics form comes back, request videos from people I know to use as test data.
-* Create a test sheet to define what success is for the test videos
+* Create a test sheet to define what success is for the test videos.
