@@ -4,7 +4,7 @@ The main issues with detecting when someone stands still was with plants in the 
 
 ### Development
 
-So, my MediaPipe pose segmentation model has been working using still images. This new task requires Pose Segmenter to work on a Live_Stream. This is causing me various issues.
+So far, my MediaPipe pose segmentation model has been working using still images. This new task requires Pose Segmenter to work on a Live_Stream. This is causing me various issues.
 * It functions differently from the Image running format
 * It requires Result Callback to function
 * This is a relatively new thing for me coding-wise
