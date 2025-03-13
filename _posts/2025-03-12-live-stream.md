@@ -13,6 +13,7 @@ Prerecorded footage seems to perform poorly with the live_stream model which nee
 I realised the mask was not actually properly applying, instead of outlining my person, it instead was creating more like a bounding box for the person, not a very accurate one at that. I realised that how I was calculating the mask was causing it to take any input and output its extreme unless it was exactly zero. While this was helping, this was not what I had in mind by using pose segmentation. When I fixed this calculation, I realised that the pose segmentation model was asynchronously lagging behind my live feed and thus was, after a few seconds, made useless to the MoG.
 
 ### To Do:
+* Fix live feed delay
 * Update model to handle saved videos better
 * Experiment with test footage to create new test sheet
 * Tweak model if necessary
