@@ -9,7 +9,7 @@ The model is beginning to work but the pose landmarker model is still too heavy 
 At the moment I am mitigating this issue by lowering the size of the input stream the model is getting, this leads to less accuracy but better performance, and the accuracy loss is not enough to be concerned over.<br/>
 I am also using threading to help image processing not interrupt the main processes.<br/>
 Have set up multiple variables that I am lowering and increasing to test performance with confidence of model.<br/>
-Using lite version of AI for live stream which is less accurate but much easier for my computer to handle<br/>
+Using lite version of mediapipe model for live stream which is less accurate but much easier for my computer to handle<br/>
 
 ### To Do:
 * Write up forms for people testing as outlined in my ethics
