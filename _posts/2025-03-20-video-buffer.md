@@ -2,6 +2,10 @@
 
 Tried one last thing to get prerecorded videos to run smoothly using a video buffer. This has not helped and I think it is time I accept that it is not going to as they mismatch the model. Testing will take a bit longer but should still be completely valid despite harsh runtimes. Besides, I realised that I could simply run the testing on my main computer. My laptop is not that powerful but that is actually useful for testing because it means it is realistic to the computers that a school is going to have; they are unlikely to have computers as powerful as my main home computer due to budget. However, for testing pre-recorded videos, I can run it on my main computer because we are not testing how well it runs but rather the model. Testing how well it runs can be done with live video on my laptop to test for real scenarios, while my model testing can be done on my more powerful computer for it to run better.
 
+### New Problem with video
+
+Now the video is running too fast. Turns out that opencv plays back video as fast as it can, often higher than the intended frame rate. This makes it near impossible to properly assess as it is going by too fast. To circumvent this I have added a variable that tracks the frame output if it is a video, and skips a loop if it is going above the intended frame rate. Now my watch speed is the same as the source video's frame rate.
+
 ### Fixed exit key
 
 Had a problem come up during my demonstration where my q key took multiple attempts to exit out of the program. Turns out that the way I was handling wait key was wrong and I was perhaps lucky that pressing q actually worked at all. I had two cv.waitKey(1) for the loop, the first being for manually capturing a frame, and the second for exiting. Manually taking a frame works every time as it is the first waitkey. I have now put them in the same elif statement and it now exits every time.<br/>
