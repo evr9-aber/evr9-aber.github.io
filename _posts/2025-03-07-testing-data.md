@@ -27,7 +27,7 @@ Important notes about each video:
 
 #### Outcomes
 
-A table with an overview of the outcomes can be seen [here](https://evr9-aber.github.io/docs/Test_Criteria.pdf)
+A table with an overview of the outcomes can be seen [here](https://evr9-aber.github.io/docs/Test_Criteria_Old.pdf)
 
 #### Conclusions
 
