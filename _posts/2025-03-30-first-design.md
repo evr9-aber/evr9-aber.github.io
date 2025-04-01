@@ -10,7 +10,7 @@ The first draft of design can be seen [here](https://evr9-aber.github.io/docs/Fi
 * Input box for sprite name (if invalid turn box red and have text underneath saying there's a problem)
 * Folder icon to search for Scratch file path.
 * Camera icon for taking individual screenshots (greyed out until recording starts). Space bar will also do this.
-* Record button to start recording and start up the pose detection. When pressed, icon becomes square to indicate it is now to stop recording. R key will start and stop also.
+* Record button to start recording and start up the pose detection. When pressed, icon becomes square to indicate it is now to stop recording. R key will start and stop also. REC added due to feedback from my mum who is a teacher.
 * Webcam always running while app open to minimise webcam start up time as it can start up in the background.
 * Text on side tells status of recording (might also put instructions over there also)
 
