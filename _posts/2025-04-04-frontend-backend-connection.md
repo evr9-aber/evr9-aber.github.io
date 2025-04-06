@@ -1,4 +1,4 @@
-## Process connecting the frontend and backend
+## Rewriting code to connect the frontend and backend
 
 * It is good practice to have the frontend and backend in separate python files.
 * For best use it makes sense to make the backend as a class so that you can import it and call the functions as button presses on the frontend.
