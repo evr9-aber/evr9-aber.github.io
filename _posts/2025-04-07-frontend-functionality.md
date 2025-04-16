@@ -9,11 +9,11 @@ I also changed certain things in preparation for frontend. Such as making the fe
 
 ### Feedback Label
 
-The feedback label acts as the app's way of letting the user know of different errors and statuses. So when the input for a function is not valid, it lets the user knows through the text. While recording it gets the status labels from the self.feedback strings in the backend and updates the text accordingly.  If the file path does not exist, the feedback label will let you know when you try to record and the recording will not start. I added a label above the folder button to tell the user what the current selected file is.
+The feedback label acts as the app's way of letting the user know of different errors and statuses. So when the input for a function is not valid, it lets the user knows through the text. While recording it gets the status labels from the self.feedback strings in the backend and updates the text accordingly.  If the file path does not exist, the feedback label will let you know when you try to record and the recording will not start. I added a label above the folder button to tell the user what the current selected file is. If the user is out of frame, the text will turn red to let the user know. This is a simple string comparison if which I think is quite volatile as it will break if I change the out of frame message (will look into a better method for this later).
 
 ### Sprite Name Entry
 
-Instead of being hard coded, the sprite name can be entered in this entry box as input for the record_poses. If the user is out of frame, the text will turn red to let the user know. This is a simple string comparison if which I think is quite volatile as it will break if I change the out of frame message (will look into a better method for this later). If you attempt to record with an empty entry box, the feedback label will let you know and the recording will not start.
+Instead of being hard coded, the sprite name can be entered in this entry box as input for the record_poses. If you attempt to record with an empty entry box, the feedback label will let you know and the recording will not start.
 
 ### File Path Select
 
