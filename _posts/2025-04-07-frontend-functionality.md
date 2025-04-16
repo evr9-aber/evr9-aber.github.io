@@ -9,7 +9,7 @@ I also changed certain things in preparation for frontend. Such as making the fe
 
 ### Feedback Label
 
-The feedback label acts as the app's way of letting the user know of different errors and statuses. So when the input for a function is not valid, it lets the user knows through the text. While recording it gets the status labels from the self.feedback strings in the backend and updates the text accordingly.  If the file path does not exist, the feedback label will let you know when you try to record and the recording will not start. I added a label above the folder button to tell the user what the current selected file is. If the user is out of frame, the text will turn red to let the user know. This is a simple string comparison if which I think is quite volatile as it will break if I change the out of frame message (will look into a better method for this later).
+The feedback label acts as the app's way of letting the user know of different errors and statuses. So when the input for a function is not valid, it lets the user knows through the text. While recording it gets the status labels from the self.feedback strings in the backend and updates the text accordingly.  If the file path does not exist, the feedback label will let you know when you try to record and the recording will not start. If the user is out of frame, the text will turn red to let the user know. This is a simple string comparison if which I think is quite volatile as it will break if I change the out of frame message (will look into a better method for this later).
 
 ### Sprite Name Entry
 
@@ -17,7 +17,7 @@ Instead of being hard coded, the sprite name can be entered in this entry box as
 
 ### File Path Select
 
-Instead of being hard coded, the file path can be selected using the file button opening a filedialog.askopenfilename to search for .sb3 files. Originally I made this a label but ctk labels can't have borders and I felt it looked wrong without them. So I changed it to a deactivated textbox so that it could look the part while not allowing for users to freely edit. That had its own issues as whenever I updated the text in it with the file path from the button, I would have to reactivate it and redeactivate it in order for it to do it.
+Instead of being hard coded, the file path can be selected using the file button opening a filedialog.askopenfilename to search for .sb3 files. I added a label above the folder button to tell the user what the current selected file is. Originally I made this a label but ctk labels can't have borders and I felt it looked wrong without them. So I changed it to a deactivated textbox so that it could look the part while not allowing for users to freely edit. That had its own issues as whenever I updated the text in it with the file path from the button, I would have to reactivate it and redeactivate it in order for it to do it.
 
 ### Take Photo Button
 
